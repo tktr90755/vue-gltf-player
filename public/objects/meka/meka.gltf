@@ -1,0 +1,231 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5123,
+            "count" : 2256,
+            "max" : [
+                2227
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2228,
+            "max" : [
+                303.74737548828125,
+                169.2083740234375,
+                409.27423095703125
+            ],
+            "min" : [
+                -302.39642333984375,
+                -146.32913208007812,
+                -325.9367370605469
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2228,
+            "max" : [
+                1.0,
+                0.9986269474029541,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2228,
+            "max" : [
+                1.0,
+                1.0,
+                0.9762334823608398,
+                1.0
+            ],
+            "min" : [
+                -1.0,
+                -1.0,
+                -0.8648684024810791,
+                -1.0
+            ],
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2228,
+            "max" : [
+                0.999019980430603,
+                0.9990199999883771
+            ],
+            "min" : [
+                0.0009800000116229057,
+                0.000970005989074707
+            ],
+            "type" : "VEC2"
+        }
+    ],
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4512,
+            "byteOffset" : 0,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26736,
+            "byteOffset" : 4512,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26736,
+            "byteOffset" : 31248,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35648,
+            "byteOffset" : 57984,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17824,
+            "byteOffset" : 93632,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 111456,
+            "uri" : "meka.bin"
+        }
+    ],
+    "images" : [
+        {
+            "name" : "meka",
+            "uri" : "meka.png"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "mat1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "meka",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2,
+                        "POSITION" : 1,
+                        "TANGENT" : 3,
+                        "TEXCOORD_0" : 4
+                    },
+                    "indices" : 0,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.481131553649902,
+                5.34366512298584,
+                6.5076398849487305
+            ]
+        },
+        {
+            "name" : "Lamp",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558802962303162,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "meka",
+            "rotation" : [
+                0.7071068286895752,
+                0.0,
+                -0.0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.009999999776482582,
+                0.01000001560896635,
+                0.009999999776482582
+            ],
+            "translation" : [
+                0.0,
+                4.0,
+                -0.009999999776482582
+            ]
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2,
+                1,
+                0
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ]
+}
