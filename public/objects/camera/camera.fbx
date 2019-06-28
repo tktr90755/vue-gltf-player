@@ -1,0 +1,1177 @@
+; FBX 6.1.0 project file
+; Copyright (C) 1997-2010 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 6100
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2019
+		Month: 6
+		Day: 28
+		Hour: 15
+		Minute: 33
+		Second: 48
+		Millisecond: 87
+	}
+	Creator: "FBX SDK/FBX Plugins version 2012.2"
+}
+
+; Document Description
+;------------------------------------------------------------------
+
+Document:  {
+	Name: ""
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 4
+	ObjectType: "Model" {
+		Count: 2
+	}
+	ObjectType: "SceneInfo" {
+		Count: 1
+	}
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Model: "Model::ヌル", "Null" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "enum", "",0
+			Property: "RotationOffset", "Vector3D", "",0,0,0
+			Property: "RotationPivot", "Vector3D", "",0,0,0
+			Property: "ScalingOffset", "Vector3D", "",0,0,0
+			Property: "ScalingPivot", "Vector3D", "",0,0,0
+			Property: "TranslationActive", "bool", "",0
+			Property: "TranslationMin", "Vector3D", "",0,0,0
+			Property: "TranslationMax", "Vector3D", "",0,0,0
+			Property: "TranslationMinX", "bool", "",0
+			Property: "TranslationMinY", "bool", "",0
+			Property: "TranslationMinZ", "bool", "",0
+			Property: "TranslationMaxX", "bool", "",0
+			Property: "TranslationMaxY", "bool", "",0
+			Property: "TranslationMaxZ", "bool", "",0
+			Property: "RotationOrder", "enum", "",0
+			Property: "RotationSpaceForLimitOnly", "bool", "",0
+			Property: "RotationStiffnessX", "double", "",0
+			Property: "RotationStiffnessY", "double", "",0
+			Property: "RotationStiffnessZ", "double", "",0
+			Property: "AxisLen", "double", "",10
+			Property: "PreRotation", "Vector3D", "",0,0,0
+			Property: "PostRotation", "Vector3D", "",0,0,0
+			Property: "RotationActive", "bool", "",0
+			Property: "RotationMin", "Vector3D", "",0,0,0
+			Property: "RotationMax", "Vector3D", "",0,0,0
+			Property: "RotationMinX", "bool", "",0
+			Property: "RotationMinY", "bool", "",0
+			Property: "RotationMinZ", "bool", "",0
+			Property: "RotationMaxX", "bool", "",0
+			Property: "RotationMaxY", "bool", "",0
+			Property: "RotationMaxZ", "bool", "",0
+			Property: "InheritType", "enum", "",0
+			Property: "ScalingActive", "bool", "",0
+			Property: "ScalingMin", "Vector3D", "",0,0,0
+			Property: "ScalingMax", "Vector3D", "",0,0,0
+			Property: "ScalingMinX", "bool", "",0
+			Property: "ScalingMinY", "bool", "",0
+			Property: "ScalingMinZ", "bool", "",0
+			Property: "ScalingMaxX", "bool", "",0
+			Property: "ScalingMaxY", "bool", "",0
+			Property: "ScalingMaxZ", "bool", "",0
+			Property: "GeometricTranslation", "Vector3D", "",0,0,0
+			Property: "GeometricRotation", "Vector3D", "",0,0,0
+			Property: "GeometricScaling", "Vector3D", "",1,1,1
+			Property: "MinDampRangeX", "double", "",0
+			Property: "MinDampRangeY", "double", "",0
+			Property: "MinDampRangeZ", "double", "",0
+			Property: "MaxDampRangeX", "double", "",0
+			Property: "MaxDampRangeY", "double", "",0
+			Property: "MaxDampRangeZ", "double", "",0
+			Property: "MinDampStrengthX", "double", "",0
+			Property: "MinDampStrengthY", "double", "",0
+			Property: "MinDampStrengthZ", "double", "",0
+			Property: "MaxDampStrengthX", "double", "",0
+			Property: "MaxDampStrengthY", "double", "",0
+			Property: "MaxDampStrengthZ", "double", "",0
+			Property: "PreferedAngleX", "double", "",0
+			Property: "PreferedAngleY", "double", "",0
+			Property: "PreferedAngleZ", "double", "",0
+			Property: "LookAtProperty", "object", ""
+			Property: "UpVectorProperty", "object", ""
+			Property: "Show", "bool", "",1
+			Property: "NegativePercentShapeSupport", "bool", "",1
+			Property: "DefaultAttributeIndex", "int", "",-1
+			Property: "Freeze", "bool", "",0
+			Property: "LODBox", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",600,81,0
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-180,-7.01670929853488e-015,-180
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+			Property: "Visibility", "Visibility", "A",1
+			Property: "Visibility Inheritance", "Visibility Inheritance", "",1
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Null"
+	}
+	Model: "Model::カメラ", "Camera" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "enum", "",0
+			Property: "RotationOffset", "Vector3D", "",0,0,0
+			Property: "RotationPivot", "Vector3D", "",0,0,0
+			Property: "ScalingOffset", "Vector3D", "",0,0,0
+			Property: "ScalingPivot", "Vector3D", "",0,0,0
+			Property: "TranslationActive", "bool", "",0
+			Property: "TranslationMin", "Vector3D", "",0,0,0
+			Property: "TranslationMax", "Vector3D", "",0,0,0
+			Property: "TranslationMinX", "bool", "",0
+			Property: "TranslationMinY", "bool", "",0
+			Property: "TranslationMinZ", "bool", "",0
+			Property: "TranslationMaxX", "bool", "",0
+			Property: "TranslationMaxY", "bool", "",0
+			Property: "TranslationMaxZ", "bool", "",0
+			Property: "RotationOrder", "enum", "",0
+			Property: "RotationSpaceForLimitOnly", "bool", "",0
+			Property: "RotationStiffnessX", "double", "",0
+			Property: "RotationStiffnessY", "double", "",0
+			Property: "RotationStiffnessZ", "double", "",0
+			Property: "AxisLen", "double", "",10
+			Property: "PreRotation", "Vector3D", "",0,0,0
+			Property: "PostRotation", "Vector3D", "",0,0,0
+			Property: "RotationActive", "bool", "",0
+			Property: "RotationMin", "Vector3D", "",0,0,0
+			Property: "RotationMax", "Vector3D", "",0,0,0
+			Property: "RotationMinX", "bool", "",0
+			Property: "RotationMinY", "bool", "",0
+			Property: "RotationMinZ", "bool", "",0
+			Property: "RotationMaxX", "bool", "",0
+			Property: "RotationMaxY", "bool", "",0
+			Property: "RotationMaxZ", "bool", "",0
+			Property: "InheritType", "enum", "",0
+			Property: "ScalingActive", "bool", "",0
+			Property: "ScalingMin", "Vector3D", "",0,0,0
+			Property: "ScalingMax", "Vector3D", "",0,0,0
+			Property: "ScalingMinX", "bool", "",0
+			Property: "ScalingMinY", "bool", "",0
+			Property: "ScalingMinZ", "bool", "",0
+			Property: "ScalingMaxX", "bool", "",0
+			Property: "ScalingMaxY", "bool", "",0
+			Property: "ScalingMaxZ", "bool", "",0
+			Property: "GeometricTranslation", "Vector3D", "",0,0,0
+			Property: "GeometricRotation", "Vector3D", "",0,0,0
+			Property: "GeometricScaling", "Vector3D", "",1,1,1
+			Property: "MinDampRangeX", "double", "",0
+			Property: "MinDampRangeY", "double", "",0
+			Property: "MinDampRangeZ", "double", "",0
+			Property: "MaxDampRangeX", "double", "",0
+			Property: "MaxDampRangeY", "double", "",0
+			Property: "MaxDampRangeZ", "double", "",0
+			Property: "MinDampStrengthX", "double", "",0
+			Property: "MinDampStrengthY", "double", "",0
+			Property: "MinDampStrengthZ", "double", "",0
+			Property: "MaxDampStrengthX", "double", "",0
+			Property: "MaxDampStrengthY", "double", "",0
+			Property: "MaxDampStrengthZ", "double", "",0
+			Property: "PreferedAngleX", "double", "",0
+			Property: "PreferedAngleY", "double", "",0
+			Property: "PreferedAngleZ", "double", "",0
+			Property: "LookAtProperty", "object", ""
+			Property: "UpVectorProperty", "object", ""
+			Property: "Show", "bool", "",1
+			Property: "NegativePercentShapeSupport", "bool", "",1
+			Property: "DefaultAttributeIndex", "int", "",0
+			Property: "Freeze", "bool", "",0
+			Property: "LODBox", "bool", "",0
+			Property: "Lcl Translation", "Lcl Translation", "A+",-825.93408203125,605.603515625,996.984069824219
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",-15.2791955579931,36.6926765441901,-24.5692005157428
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+			Property: "Visibility", "Visibility", "A",1
+			Property: "Visibility Inheritance", "Visibility Inheritance", "",1
+			Property: "Position", "Vector", "AN",1425.93408203125,686.603515625,-996.984069824219
+			Property: "UpVector", "Vector", "AN",-0.257890743298471,0.942784183853413,0.211306287641462
+			Property: "InterestPosition", "Vector", "AN",-826.663334173949,605.270111991733,997.581592484619
+			Property: "Roll", "Roll", "AN",0
+			Property: "OpticalCenterX", "OpticalCenterX", "AN",0
+			Property: "OpticalCenterY", "OpticalCenterY", "AN",0
+			Property: "BackgroundColor", "Color", "AN",0.63,0.63,0.63
+			Property: "TurnTable", "Number", "AN",0
+			Property: "DisplayTurnTableIcon", "bool", "N",0
+			Property: "UseMotionBlur", "bool", "N",0
+			Property: "UseRealTimeMotionBlur", "bool", "N",1
+			Property: "Motion Blur Intensity", "Number", "AN",1
+			Property: "AspectRatioMode", "enum", "N",0
+			Property: "AspectWidth", "double", "N",1
+			Property: "AspectHeight", "double", "N",1
+			Property: "PixelAspectRatio", "double", "N",1
+			Property: "FilmOffsetX", "Number", "AN",0
+			Property: "FilmOffsetY", "Number", "AN",0
+			Property: "FilmWidth", "double", "N",1.41732283464567
+			Property: "FilmHeight", "double", "N",1.06299212598425
+			Property: "FilmAspectRatio", "double", "N",1.33333333333333
+			Property: "FilmSqueezeRatio", "double", "N",1
+			Property: "FilmFormatIndex", "enum", "N",0
+			Property: "PreScale", "Number", "AN",1
+			Property: "FilmTranslateX", "Number", "AN",0
+			Property: "FilmTranslateY", "Number", "AN",0
+			Property: "FilmRollPivotX", "Number", "AN",0
+			Property: "FilmRollPivotY", "Number", "AN",0
+			Property: "FilmRollValue", "Number", "AN",0
+			Property: "FilmRollOrder", "enum", "N",0
+			Property: "ApertureMode", "enum", "N",3
+			Property: "GateFit", "enum", "N",0
+			Property: "FieldOfView", "FieldOfView", "AN",53.130102354156
+			Property: "FieldOfViewX", "FieldOfViewX", "AN",40
+			Property: "FieldOfViewY", "FieldOfViewY", "AN",40
+			Property: "FocalLength", "Number", "AN",36
+			Property: "CameraFormat", "enum", "N",0
+			Property: "UseFrameColor", "bool", "N",0
+			Property: "FrameColor", "ColorRGB", "N",0.3,0.3,0.3
+			Property: "ShowName", "bool", "N",1
+			Property: "ShowInfoOnMoving", "bool", "N",1
+			Property: "ShowGrid", "bool", "N",1
+			Property: "ShowOpticalCenter", "bool", "N",0
+			Property: "ShowAzimut", "bool", "N",1
+			Property: "ShowTimeCode", "bool", "N",0
+			Property: "ShowAudio", "bool", "N",0
+			Property: "AudioColor", "ColorRGB", "N",0,1,0
+			Property: "NearPlane", "double", "N",10
+			Property: "FarPlane", "double", "N",4000
+			Property: "AutoComputeClipPanes", "bool", "N",0
+			Property: "ViewCameraToLookAt", "bool", "N",1
+			Property: "ViewFrustumNearFarPlane", "bool", "N",0
+			Property: "ViewFrustumBackPlaneMode", "enum", "N",2
+			Property: "BackPlaneDistance", "Number", "AN",4000
+			Property: "BackPlaneDistanceMode", "enum", "N",1
+			Property: "ViewFrustumFrontPlaneMode", "enum", "N",2
+			Property: "FrontPlaneDistance", "Number", "AN",10
+			Property: "FrontPlaneDistanceMode", "enum", "N",1
+			Property: "LockMode", "bool", "N",0
+			Property: "LockInterestNavigation", "bool", "N",0
+			Property: "FitImage", "bool", "N",0
+			Property: "Crop", "bool", "N",0
+			Property: "Center", "bool", "N",1
+			Property: "KeepRatio", "bool", "N",1
+			Property: "BackgroundAlphaTreshold", "double", "N",0.5
+			Property: "ShowBackplate", "bool", "N",1
+			Property: "BackPlaneOffsetX", "Number", "AN",0
+			Property: "BackPlaneOffsetY", "Number", "AN",0
+			Property: "BackPlaneRotation", "Number", "AN",0
+			Property: "BackPlaneScaleX", "Number", "AN",1
+			Property: "BackPlaneScaleY", "Number", "AN",1
+			Property: "Background Texture", "object", "N"
+			Property: "FrontPlateFitImage", "bool", "N",1
+			Property: "FrontPlateCrop", "bool", "N",0
+			Property: "FrontPlateCenter", "bool", "N",1
+			Property: "FrontPlateKeepRatio", "bool", "N",1
+			Property: "Foreground Opacity", "double", "N",1
+			Property: "ShowFrontplate", "bool", "N",1
+			Property: "FrontPlaneOffsetX", "Number", "AN",0
+			Property: "FrontPlaneOffsetY", "Number", "AN",0
+			Property: "FrontPlaneRotation", "Number", "AN",0
+			Property: "FrontPlaneScaleX", "Number", "AN",1
+			Property: "FrontPlaneScaleY", "Number", "AN",1
+			Property: "Foreground Texture", "object", "N"
+			Property: "DisplaySafeArea", "bool", "N",0
+			Property: "DisplaySafeAreaOnRender", "bool", "N",0
+			Property: "SafeAreaDisplayStyle", "enum", "N",1
+			Property: "SafeAreaAspectRatio", "double", "N",1.33333333333333
+			Property: "Use2DMagnifierZoom", "bool", "N",0
+			Property: "2D Magnifier Zoom", "Number", "AN",100
+			Property: "2D Magnifier X", "Number", "AN",50
+			Property: "2D Magnifier Y", "Number", "AN",50
+			Property: "CameraProjectionType", "enum", "N",0
+			Property: "OrthoZoom", "double", "N",1
+			Property: "UseRealTimeDOFAndAA", "bool", "N",0
+			Property: "UseDepthOfField", "bool", "N",0
+			Property: "FocusSource", "enum", "N",0
+			Property: "FocusAngle", "double", "N",3.5
+			Property: "FocusDistance", "double", "N",200
+			Property: "UseAntialiasing", "bool", "N",0
+			Property: "AntialiasingIntensity", "double", "N",0.77777
+			Property: "AntialiasingMethod", "enum", "N",0
+			Property: "UseAccumulationBuffer", "bool", "N",0
+			Property: "FrameSamplingCount", "int", "N",7
+			Property: "FrameSamplingType", "enum", "N",1
+			Property: "Color", "ColorRGB", "N",0.8,0.8,0.8
+		}
+		MultiLayer: 0
+		MultiTake: 0
+		Shading: Y
+		Culling: "CullingOff"
+		TypeFlags: "Camera"
+		GeometryVersion: 124
+		Position: 1425.93408203125,686.603515625,-996.984069824219
+		Up: -0.257890743298471,0.942784183853413,0.211306287641462
+		LookAt: -826.663334173949,605.270111991733,997.581592484619
+		ShowInfoOnMoving: 1
+		ShowAudio: 0
+		AudioColor: 0,1,0
+		CameraOrthoZoom: 1
+		NodeAttributeName: "NodeAttribute::カメラ_ncl1_1"
+	}
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties60:  {
+			Property: "DocumentUrl", "KString", "", "C:\xampp\htdocs\0000_00_00_Conpornents\takatori\vue-gltf-player\public\objects\camera\camera.fbx"
+             
+			Property: "SrcDocumentUrl", "KString", "", "C:\xampp\htdocs\0000_00_00_Conpornents\takatori\vue-gltf-player\public\objects\camera\camera.fbx"
+             
+			Property: "Original", "Compound", ""
+			Property: "Original|ApplicationVendor", "KString", "", ""
+			Property: "Original|ApplicationName", "KString", "", "MAXON CINEMA 4D Prime 14.014"
+			Property: "Original|ApplicationVersion", "KString", "", ""
+			Property: "Original|DateTime_GMT", "DateTime", "", "28/06/2019 01:26:36.000"
+			Property: "Original|FileName", "KString", "", ""
+			Property: "LastSaved", "Compound", ""
+			Property: "LastSaved|ApplicationVendor", "KString", "", "MAXON"
+			Property: "LastSaved|ApplicationName", "KString", "", "CINEMA 4D R14"
+			Property: "LastSaved|ApplicationVersion", "KString", "", "14.014"
+			Property: "LastSaved|DateTime_GMT", "DateTime", "", "28/06/2019 06:33:48.000"
+		}
+	}
+	GlobalSettings:  {
+		Version: 1000
+		Properties60:  {
+			Property: "UpAxis", "int", "",1
+			Property: "UpAxisSign", "int", "",1
+			Property: "FrontAxis", "int", "",2
+			Property: "FrontAxisSign", "int", "",1
+			Property: "CoordAxis", "int", "",0
+			Property: "CoordAxisSign", "int", "",1
+			Property: "OriginalUpAxis", "int", "",-1
+			Property: "OriginalUpAxisSign", "int", "",1
+			Property: "UnitScaleFactor", "double", "",1
+			Property: "OriginalUnitScaleFactor", "double", "",1
+			Property: "AmbientColor", "ColorRGB", "",0,0,0
+			Property: "DefaultCamera", "KString", "", "Producer Perspective"
+			Property: "TimeMode", "enum", "",6
+			Property: "TimeSpanStart", "KTime", "",0
+			Property: "TimeSpanStop", "KTime", "",46186158000
+			Property: "CustomFrameRate", "double", "",-1
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	Connect: "OO", "Model::ヌル", "Model::Scene"
+	Connect: "OO", "Model::カメラ", "Model::ヌル"
+}
+;Takes and animation section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+	Take: "C4D Animation Take" {
+		FileName: "C4D_Animation_Take.tak"
+		LocalTime: 0,184744632000
+		ReferenceTime: 0,184744632000
+		
+		;Models animation
+		;----------------------------------------------------
+		Model: "Model::ヌル" {
+			Version: 1.1
+			Channel: "Transform" {
+				Channel: "T" {
+					Channel: "X" {
+						Default: 600
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,600,L,1539538600,598.688842773438,L,3079077200,594.844482421875,L,4618615800,588.60009765625
+                                        ,L,6158154400,580.088623046875,L,7697693000,569.4443359375,L,9237231600,556.800048828125
+                                        ,L,10776770200,542.289184570313,L,12316308800,526.044067382813,L,13855847400,508.199890136719
+                                        ,L,15395386000,488.889068603516,L,16934924600,468.244964599609,L,18474463200,446.399627685547
+                                        ,L,20014001800,423.488830566406,L,21553540400,399.644775390625,L,23093079000,374.999298095703
+                                        ,L,24632617600,349.688537597656,L,26172156200,323.844482421875,L,27711694800,297.600463867188
+                                        ,L,29251233400,271.088226318359,L,30790772000,244.444183349609,L,32330310600,217.800155639648
+                                        ,L,33869849200,191.289443969727,L,35409387800,165.043899536133,L,36948926400,139.199859619141
+                                        ,L,38488465000,113.889129638672,L,40028003600,89.2450485229492,L,41567542200,65.3995971679688
+                                        ,L,43107080800,42.4888458251953,L,44646619400,20.6447277069092,L,46186158000,2.66453525910038e-014
+                                        ,L,47725696600,-20.6447277069092,L,49265235200,-42.4888458251953,L,50804773800,-65.3995971679688
+                                        ,L,52344312400,-89.2450485229492,L,53883851000,-113.889129638672,L,55423389600,-139.199859619141
+                                        ,L,56962928200,-165.043899536133,L,58502466800,-191.289443969727,L,60042005400,-217.800155639648
+                                        ,L,61581544000,-244.444183349609,L,63121082600,-271.088226318359,L,64660621200,-297.600463867188
+                                        ,L,66200159800,-323.844482421875,L,67739698400,-349.688537597656,L,69279237000,-375.000701904297
+                                        ,L,70818775600,-399.644775390625,L,72358314200,-423.488830566406,L,73897852800,-446.399627685547
+                                        ,L,75437391400,-468.244964599609,L,76976930000,-488.889068603516,L,78516468600,-508.199890136719
+                                        ,L,80056007200,-526.044067382813,L,81595545800,-542.289184570313,L,83135084400,-556.800048828125
+                                        ,L,84674623000,-569.4443359375,L,86214161600,-580.088623046875,L,87753700200,-588.60009765625
+                                        ,L,89293238800,-594.844482421875,L,90832777400,-598.688842773438,L,92372316000,-600
+                                        ,L,93911854600,-598.688842773438,L,95451393200,-594.844482421875,L,96990931800,-588.60009765625
+                                        ,L,98530470400,-580.088623046875,L,100070009000,-569.4443359375,L,101609547600,-556.800048828125
+                                        ,L,103149086200,-542.289184570313,L,104688624800,-526.044067382813,L,106228163400
+                                        ,-508.199890136719,L,107767702000,-488.889068603516,L,109307240600,-468.244964599609
+                                        ,L,110846779200,-446.399627685547,L,112386317800,-423.488830566406,L,113925856400
+                                        ,-399.644775390625,L,115465395000,-374.999298095703,L,117004933600,-349.688537597656
+                                        ,L,118544472200,-323.844482421875,L,120084010800,-297.600463867188,L,121623549400
+                                        ,-271.088226318359,L,123163088000,-244.444183349609,L,124702626600,-217.800155639648
+                                        ,L,126242165200,-191.289443969727,L,127781703800,-165.043899536133,L,129321242400
+                                        ,-139.199859619141,L,130860781000,-113.889129638672,L,132400319600,-89.2450485229492
+                                        ,L,133939858200,-65.3995971679688,L,135479396800,-42.4888458251953,L,137018935400
+                                        ,-20.6447277069092,L,138558474000,1.80300219199125e-013,L,140098012600,20.6447277069092
+                                        ,L,141637551200,42.4888458251953,L,143177089800,65.3995971679688,L,144716628400,89.2450485229492
+                                        ,L,146256167000,113.889129638672,L,147795705600,139.199859619141,L,149335244200,165.043899536133
+                                        ,L,150874782800,191.289443969727,L,152414321400,217.800155639648,L,153953860000,244.444183349609
+                                        ,L,155493398600,271.088226318359,L,157032937200,297.600463867188,L,158572475800,323.844482421875
+                                        ,L,160112014400,349.688537597656,L,161651553000,375.000701904297,L,163191091600,399.644775390625
+                                        ,L,164730630200,423.488830566406,L,166270168800,446.399627685547,L,167809707400,468.244964599609
+                                        ,L,169349246000,488.889068603516,L,170888784600,508.199890136719,L,172428323200,526.044067382813
+                                        ,L,173967861800,542.289184570313,L,175507400400,556.800048828125,L,177046939000,569.4443359375
+                                        ,L,178586477600,580.088623046875,L,180126016200,588.60009765625,L,181665554800,594.844482421875
+                                        ,L,183205093400,598.688842773438,L,184744632000,600,L
+						Color: 1,1,1
+					}
+					Channel: "Y" {
+						Default: 81
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,81,L,1539538600,80.9413299560547,L,3079077200,80.7706680297852,L,4618615800,80.4960021972656
+                                        ,L,6158154400,80.1253204345703,L,7697693000,79.6666641235352,L,9237231600,79.1280059814453
+                                        ,L,10776770200,78.5173492431641,L,12316308800,77.8426513671875,L,13855847400,77.1119918823242
+                                        ,L,15395386000,76.3333435058594,L,16934924600,75.5146865844727,L,18474463200,74.6639862060547
+                                        ,L,20014001800,73.7893295288086,L,21553540400,72.898681640625,L,23093079000,71.9999771118164
+                                        ,L,24632617600,71.101318359375,L,26172156200,70.2106704711914,L,27711694800,69.3360137939453
+                                        ,L,29251233400,68.4853134155273,L,30790772000,67.6666564941406,L,32330310600,66.8880081176758
+                                        ,L,33869849200,66.1573486328125,L,35409387800,65.4826507568359,L,36948926400,64.8719940185547
+                                        ,L,38488465000,64.3333358764648,L,40028003600,63.8746757507324,L,41567542200,63.5039939880371
+                                        ,L,43107080800,63.2293319702148,L,44646619400,63.0586700439453,L,46186158000,63,L
+                                        ,47725696600,63.4856414794922,L,49265235200,64.8983688354492,L,50804773800,67.1719512939453
+                                        ,L,52344312400,70.2403793334961,L,53883851000,74.0370788574219,L,55423389600,78.4959716796875
+                                        ,L,56962928200,83.5508499145508,L,58502466800,89.1358261108398,L,60042005400,95.1840362548828
+                                        ,L,61581544000,101.629570007324,L,63121082600,108.406196594238,L,64660621200,115.448120117188
+                                        ,L,66200159800,122.68830871582,L,67739698400,130.060943603516,L,69279237000,137.500213623047
+                                        ,L,70818775600,144.939056396484,L,72358314200,152.31169128418,L,73897852800,159.551879882813
+                                        ,L,75437391400,166.593795776367,L,76976930000,173.37043762207,L,78516468600,179.815963745117
+                                        ,L,80056007200,185.864181518555,L,81595545800,191.449142456055,L,83135084400,196.504028320313
+                                        ,L,84674623000,200.962921142578,L,86214161600,204.759613037109,L,87753700200,207.828048706055
+                                        ,L,89293238800,210.101638793945,L,90832777400,211.514358520508,L,92372316000,212,L
+                                        ,93911854600,211.423095703125,L,95451393200,209.744888305664,L,96990931800,207.044052124023
+                                        ,L,98530470400,203.399002075195,L,100070009000,198.88883972168,L,101609547600,193.592025756836
+                                        ,L,103149086200,187.587249755859,L,104688624800,180.952743530273,L,106228163400,173.767959594727
+                                        ,L,107767702000,166.111190795898,L,109307240600,158.061096191406,L,110846779200,149.695846557617
+                                        ,L,112386317800,141.095092773438,L,113925856400,132.337005615234,L,115465395000,123.49974822998
+                                        ,L,117004933600,114.662994384766,L,118544472200,105.904907226563,L,120084010800,97.3041458129883
+                                        ,L,121623549400,88.9389038085938,L,123163088000,80.8888168334961,L,124702626600,73.2320404052734
+                                        ,L,126242165200,66.0472564697266,L,127781703800,59.4127578735352,L,129321242400,53.4079666137695
+                                        ,L,130860781000,48.111156463623,L,132400319600,43.6009902954102,L,133939858200,39.9559440612793
+                                        ,L,135479396800,37.2551078796387,L,137018935400,35.576904296875,L,138558474000,35
+                                        ,L,140098012600,35.1499290466309,L,141637551200,35.5860748291016,L,143177089800,36.2879867553711
+                                        ,L,144716628400,37.2352867126465,L,146256167000,38.4074211120605,L,147795705600,39.783992767334
+                                        ,L,149335244200,41.3445587158203,L,150874782800,43.0687789916992,L,152414321400,44.9360122680664
+                                        ,L,153953860000,46.9259071350098,L,155493398600,49.0180206298828,L,157032937200,51.1920394897461
+                                        ,L,158572475800,53.4272651672363,L,160112014400,55.7033767700195,L,161651553000,58.0000648498535
+                                        ,L,163191091600,60.2966232299805,L,164730630200,62.5727348327637,L,166270168800,64.8079605102539
+                                        ,L,167809707400,66.9819793701172,L,169349246000,69.0740966796875,L,170888784600,71.0639877319336
+                                        ,L,172428323200,72.9312210083008,L,173967861800,74.6554412841797,L,175507400400,76.2160110473633
+                                        ,L,177046939000,77.5925827026367,L,178586477600,78.7647171020508,L,180126016200,79.7120132446289
+                                        ,L,181665554800,80.4139251708984,L,183205093400,80.8500671386719,L,184744632000,81
+                                        ,L
+						Color: 1,1,1
+					}
+					Channel: "Z" {
+						Default: 0
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,0,L,1539538600,-1.95560717582703,L,3079077200,-7.64443016052246,L,4618615800,-16.7998142242432
+                                        ,L,6158154400,-29.1558990478516,L,7697693000,-44.4446029663086,L,9237231600,-62.3998908996582
+                                        ,L,10776770200,-82.7551040649414,L,12316308800,-105.244934082031,L,13855847400,-129.600143432617
+                                        ,L,15395386000,-155.555297851563,L,16934924600,-182.84375,L,18474463200,-211.200500488281
+                                        ,L,20014001800,-240.355606079102,L,21553540400,-270.044036865234,L,23093079000,-300.000854492188
+                                        ,L,24632617600,-329.955963134766,L,26172156200,-359.644378662109,L,27711694800,-388.799499511719
+                                        ,L,29251233400,-417.15625,L,30790772000,-444.444702148438,L,32330310600,-470.399841308594
+                                        ,L,33869849200,-494.755065917969,L,35409387800,-517.244873046875,L,36948926400,-537.60009765625
+                                        ,L,38488465000,-555.555419921875,L,40028003600,-570.844116210938,L,41567542200,-583.2001953125
+                                        ,L,43107080800,-592.355590820313,L,44646619400,-598.044372558594,L,46186158000,-600
+                                        ,L,47725696600,-598.688842773438,L,49265235200,-594.844482421875,L,50804773800,-588.60009765625
+                                        ,L,52344312400,-580.088623046875,L,53883851000,-569.4443359375,L,55423389600,-556.800048828125
+                                        ,L,56962928200,-542.289184570313,L,58502466800,-526.044067382813,L,60042005400,-508.199890136719
+                                        ,L,61581544000,-488.889068603516,L,63121082600,-468.244964599609,L,64660621200,-446.399627685547
+                                        ,L,66200159800,-423.488830566406,L,67739698400,-399.644775390625,L,69279237000,-374.999298095703
+                                        ,L,70818775600,-349.688537597656,L,72358314200,-323.844482421875,L,73897852800,-297.600463867188
+                                        ,L,75437391400,-271.088226318359,L,76976930000,-244.444183349609,L,78516468600,-217.800155639648
+                                        ,L,80056007200,-191.289443969727,L,81595545800,-165.043899536133,L,83135084400,-139.199859619141
+                                        ,L,84674623000,-113.889129638672,L,86214161600,-89.2450485229492,L,87753700200,-65.3995971679688
+                                        ,L,89293238800,-42.4888458251953,L,90832777400,-20.6447277069092,L,92372316000,0,L
+                                        ,93911854600,20.6447277069092,L,95451393200,42.4888458251953,L,96990931800,65.3995971679688
+                                        ,L,98530470400,89.2450485229492,L,100070009000,113.889129638672,L,101609547600,139.199859619141
+                                        ,L,103149086200,165.043899536133,L,104688624800,191.289443969727,L,106228163400,217.800155639648
+                                        ,L,107767702000,244.444183349609,L,109307240600,271.088226318359,L,110846779200,297.600463867188
+                                        ,L,112386317800,323.844482421875,L,113925856400,349.688537597656,L,115465395000,375.000701904297
+                                        ,L,117004933600,399.644775390625,L,118544472200,423.488830566406,L,120084010800,446.399627685547
+                                        ,L,121623549400,468.244964599609,L,123163088000,488.889068603516,L,124702626600,508.199890136719
+                                        ,L,126242165200,526.044067382813,L,127781703800,542.289184570313,L,129321242400,556.800048828125
+                                        ,L,130860781000,569.4443359375,L,132400319600,580.088623046875,L,133939858200,588.60009765625
+                                        ,L,135479396800,594.844482421875,L,137018935400,598.688842773438,L,138558474000,600
+                                        ,L,140098012600,598.044372558594,L,141637551200,592.355590820313,L,143177089800,583.2001953125
+                                        ,L,144716628400,570.844116210938,L,146256167000,555.555419921875,L,147795705600,537.60009765625
+                                        ,L,149335244200,517.244873046875,L,150874782800,494.755065917969,L,152414321400,470.399841308594
+                                        ,L,153953860000,444.444702148438,L,155493398600,417.15625,L,157032937200,388.799499511719
+                                        ,L,158572475800,359.644378662109,L,160112014400,329.955963134766,L,161651553000,299.999145507813
+                                        ,L,163191091600,270.044036865234,L,164730630200,240.355606079102,L,166270168800,211.200500488281
+                                        ,L,167809707400,182.84375,L,169349246000,155.555297851563,L,170888784600,129.600143432617
+                                        ,L,172428323200,105.244934082031,L,173967861800,82.7551040649414,L,175507400400,62.3998908996582
+                                        ,L,177046939000,44.4446029663086,L,178586477600,29.1558990478516,L,180126016200,16.7998142242432
+                                        ,L,181665554800,7.64443016052246,L,183205093400,1.95560717582703,L,184744632000,0
+                                        ,L
+						Color: 1,1,1
+					}
+					LayerType: 1
+				}
+				Channel: "R" {
+					Channel: "X" {
+						Default: -180
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,-180,L,1539538600,-180,L,3079077200,-180,L,4618615800,-180,L,6158154400,-180,L,7697693000
+                                        ,-180,L,9237231600,-180,L,10776770200,-180,L,12316308800,-180,L,13855847400,-180,L
+                                        ,15395386000,-180,L,16934924600,-180,L,18474463200,-180,L,20014001800,-180,L,21553540400
+                                        ,-180,L,23093079000,-180,L,24632617600,-180,L,26172156200,-180,L,27711694800,-180
+                                        ,L,29251233400,-180,L,30790772000,-180,L,32330310600,-180,L,33869849200,-180,L,35409387800
+                                        ,-180,L,36948926400,-180,L,38488465000,-180,L,40028003600,-180,L,41567542200,-180
+                                        ,L,43107080800,-180,L,44646619400,-180,L,46186158000,-180,L,47725696600,-180,L,49265235200
+                                        ,-180,L,50804773800,-180,L,52344312400,-180,L,53883851000,-180,L,55423389600,-180
+                                        ,L,56962928200,-180,L,58502466800,-180,L,60042005400,-180,L,61581544000,-180,L,63121082600
+                                        ,-180,L,64660621200,-180,L,66200159800,-180,L,67739698400,-180,L,69279237000,-180
+                                        ,L,70818775600,-180,L,72358314200,-180,L,73897852800,-180,L,75437391400,-180,L,76976930000
+                                        ,-180,L,78516468600,-180,L,80056007200,-180,L,81595545800,-180,L,83135084400,-180
+                                        ,L,84674623000,-180,L,86214161600,-180,L,87753700200,-180,L,89293238800,-180,L,90832777400
+                                        ,-180,L,92372316000,-180,L,93911854600,-180,L,95451393200,-180,L,96990931800,-180
+                                        ,L,98530470400,-180,L,100070009000,-180,L,101609547600,-180,L,103149086200,-180,L
+                                        ,104688624800,-180,L,106228163400,-180,L,107767702000,-180,L,109307240600,-180,L,110846779200
+                                        ,-180,L,112386317800,-180,L,113925856400,-180,L,115465395000,-180,L,117004933600,-180
+                                        ,L,118544472200,-180,L,120084010800,-180,L,121623549400,-180,L,123163088000,-180,L
+                                        ,124702626600,-180,L,126242165200,-180,L,127781703800,-180,L,129321242400,-180,L,130860781000
+                                        ,-180,L,132400319600,-180,L,133939858200,-180,L,135479396800,-180,L,137018935400,-180
+                                        ,L,138558474000,-180,L,140098012600,-180,L,141637551200,-180,L,143177089800,-180,L
+                                        ,144716628400,-180,L,146256167000,-180,L,147795705600,-180,L,149335244200,-180,L,150874782800
+                                        ,-180,L,152414321400,-180,L,153953860000,-180,L,155493398600,-180,L,157032937200,-180
+                                        ,L,158572475800,-180,L,160112014400,-180,L,161651553000,-180,L,163191091600,-180,L
+                                        ,164730630200,-180,L,166270168800,-180,L,167809707400,-180,L,169349246000,-180,L,170888784600
+                                        ,-180,L,172428323200,-180,L,173967861800,-180,L,175507400400,-180,L,177046939000,-180
+                                        ,L,178586477600,-180,L,180126016200,-180,L,181665554800,-180,L,183205093400,-180,L
+                                        ,184744632000,-180,L
+						Color: 1,1,1
+					}
+					Channel: "Y" {
+						Default: -7.01670912670559e-015
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,-7.01670912670559e-015,L,1539538600,-7.01670912670559e-015,L,3079077200,-7.01670912670559e-015
+                                        ,L,4618615800,-7.01670912670559e-015,L,6158154400,-7.01670912670559e-015,L,7697693000
+                                        ,-5.08888754974322e-014,L,9237231600,-7.01670912670559e-015,L,10776770200,0,L,12316308800
+                                        ,0,L,13855847400,0,L,15395386000,0,L,16934924600,0,L,18474463200,0,L,20014001800,0
+                                        ,L,21553540400,0,L,23093079000,0,L,24632617600,0,L,26172156200,0,L,27711694800,0,L
+                                        ,29251233400,0,L,30790772000,0,L,32330310600,0,L,33869849200,0,L,35409387800,0,L,36948926400
+                                        ,0,L,38488465000,0,L,40028003600,0,L,41567542200,0,L,43107080800,0,L,44646619400,0
+                                        ,L,46186158000,0,L,47725696600,-0.468530893325806,L,49265235200,-1.83703362941742
+                                        ,L,50804773800,-4.04995489120483,L,52344312400,-7.05193567276001,L,53883851000,-10.7870759963989
+                                        ,L,55423389600,-15.1999731063843,L,56962928200,-20.2350730895996,L,58502466800,-25.8371601104736
+                                        ,L,60042005400,-31.9500370025635,L,61581544000,-38.5184555053711,L,63121082600,-45.4868583679199
+                                        ,L,64660621200,-52.8001289367676,L,66200159800,-60.4018669128418,L,67739698400,-68.236930847168
+                                        ,L,69279237000,-76.2502288818359,L,70818775600,-84.3852920532227,L,72358314200,-92.5870208740234
+                                        ,L,73897852800,-100.799858093262,L,75437391400,-108.968719482422,L,76976930000,-117.037117004395
+                                        ,L,78516468600,-124.94995880127,L,80056007200,-132.65168762207,L,81595545800,-140.087188720703
+                                        ,L,83135084400,-147.200042724609,L,84674623000,-153.935119628906,L,86214161600,-160.236892700195
+                                        ,L,87753700200,-166.050094604492,L,89293238800,-171.31852722168,L,90832777400,-175.98698425293
+                                        ,L,92372316000,-180,L,93911854600,-183.460037231445,L,95451393200,-186.524444580078
+                                        ,L,96990931800,-189.219955444336,L,98530470400,-191.573394775391,L,100070009000,-193.611129760742
+                                        ,L,101609547600,-195.359985351563,L,103149086200,-196.846633911133,L,104688624800
+                                        ,-198.097808837891,L,106228163400,-199.139999389648,L,107767702000,-200,L,109307240600
+                                        ,-200.70442199707,L,110846779200,-201.280014038086,L,112386317800,-201.753341674805
+                                        ,L,113925856400,-202.151107788086,L,115465395000,-202.500015258789,L,117004933600
+                                        ,-202.826675415039,L,118544472200,-203.157775878906,L,120084010800,-203.519989013672
+                                        ,L,121623549400,-203.940017700195,L,123163088000,-204.444442749023,L,124702626600
+                                        ,-205.059997558594,L,126242165200,-205.81330871582,L,127781703800,-206.73112487793
+                                        ,L,129321242400,-207.84001159668,L,130860781000,-209.166656494141,L,132400319600,-210.737731933594
+                                        ,L,133939858200,-212.580032348633,L,135479396800,-214.720001220703,L,137018935400
+                                        ,-217.18440246582,L,138558474000,-220,L,140098012600,-223.259674072266,L,141637551200
+                                        ,-227.010360717773,L,143177089800,-231.209930419922,L,144716628400,-235.816421508789
+                                        ,L,146256167000,-240.787078857422,L,147795705600,-246.079971313477,L,149335244200
+                                        ,-251.652847290039,L,150874782800,-257.463836669922,L,152414321400,-263.470031738281
+                                        ,L,153953860000,-269.629577636719,L,155493398600,-275.900207519531,L,157032937200
+                                        ,-282.240112304688,L,158572475800,-288.606323242188,L,160112014400,-294.956939697266
+                                        ,L,161651553000,-301.250183105469,L,163191091600,-307.443054199219,L,164730630200
+                                        ,-313.493682861328,L,166270168800,-319.359893798828,L,167809707400,-324.999755859375
+                                        ,L,169349246000,-330.370422363281,L,170888784600,-335.429962158203,L,172428323200
+                                        ,-340.136199951172,L,173967861800,-344.447113037109,L,175507400400,-348.320007324219
+                                        ,L,177046939000,-351.712921142578,L,178586477600,-354.583648681641,L,180126016200
+                                        ,-356.890045166016,L,181665554800,-358.589630126953,L,183205093400,-359.640350341797
+                                        ,L,184744632000,-360,L
+						Color: 1,1,1
+					}
+					Channel: "Z" {
+						Default: -180
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,-180,L,1539538600,-180,L,3079077200,-180,L,4618615800,-180,L,6158154400,-180,L,7697693000
+                                        ,-180,L,9237231600,-180,L,10776770200,-180,L,12316308800,-180,L,13855847400,-180,L
+                                        ,15395386000,-180,L,16934924600,-180,L,18474463200,-180,L,20014001800,-180,L,21553540400
+                                        ,-180,L,23093079000,-180,L,24632617600,-180,L,26172156200,-180,L,27711694800,-180
+                                        ,L,29251233400,-180,L,30790772000,-180,L,32330310600,-180,L,33869849200,-180,L,35409387800
+                                        ,-180,L,36948926400,-180,L,38488465000,-180,L,40028003600,-180,L,41567542200,-180
+                                        ,L,43107080800,-180,L,44646619400,-180,L,46186158000,-180,L,47725696600,-180,L,49265235200
+                                        ,-180,L,50804773800,-180,L,52344312400,-180,L,53883851000,-180,L,55423389600,-180
+                                        ,L,56962928200,-180,L,58502466800,-180,L,60042005400,-180,L,61581544000,-180,L,63121082600
+                                        ,-180,L,64660621200,-180,L,66200159800,-180,L,67739698400,-180,L,69279237000,-180
+                                        ,L,70818775600,-180,L,72358314200,-180,L,73897852800,-180,L,75437391400,-180,L,76976930000
+                                        ,-180,L,78516468600,-180,L,80056007200,-180,L,81595545800,-180,L,83135084400,-180
+                                        ,L,84674623000,-180,L,86214161600,-180,L,87753700200,-180,L,89293238800,-180,L,90832777400
+                                        ,-180,L,92372316000,-180,L,93911854600,-180,L,95451393200,-180,L,96990931800,-180
+                                        ,L,98530470400,-180,L,100070009000,-180,L,101609547600,-180,L,103149086200,-180,L
+                                        ,104688624800,-180,L,106228163400,-180,L,107767702000,-180,L,109307240600,-180,L,110846779200
+                                        ,-180,L,112386317800,-180,L,113925856400,-180,L,115465395000,-180,L,117004933600,-180
+                                        ,L,118544472200,-180,L,120084010800,-180,L,121623549400,-180,L,123163088000,-180,L
+                                        ,124702626600,-180,L,126242165200,-180,L,127781703800,-180,L,129321242400,-180,L,130860781000
+                                        ,-180,L,132400319600,-180,L,133939858200,-180,L,135479396800,-180,L,137018935400,-180
+                                        ,L,138558474000,-180,L,140098012600,-180,L,141637551200,-180,L,143177089800,-180,L
+                                        ,144716628400,-180,L,146256167000,-180,L,147795705600,-180,L,149335244200,-180,L,150874782800
+                                        ,-180,L,152414321400,-180,L,153953860000,-180,L,155493398600,-180,L,157032937200,-180
+                                        ,L,158572475800,-180,L,160112014400,-180,L,161651553000,-180,L,163191091600,-180,L
+                                        ,164730630200,-180,L,166270168800,-180,L,167809707400,-180,L,169349246000,-180,L,170888784600
+                                        ,-180,L,172428323200,-180,L,173967861800,-180,L,175507400400,-180,L,177046939000,-180
+                                        ,L,178586477600,-180,L,180126016200,-180,L,181665554800,-180,L,183205093400,-180,L
+                                        ,184744632000,-180,L
+						Color: 1,1,1
+					}
+					LayerType: 2
+				}
+				Channel: "S" {
+					Channel: "X" {
+						Default: 1
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,1,L,1539538600,1,L,3079077200,1,L,4618615800,1,L,6158154400,1,L,7697693000,1,L,9237231600
+                                        ,1,L,10776770200,1,L,12316308800,1,L,13855847400,1,L,15395386000,1,L,16934924600,1
+                                        ,L,18474463200,1,L,20014001800,1,L,21553540400,1,L,23093079000,1,L,24632617600,1,L
+                                        ,26172156200,1,L,27711694800,1,L,29251233400,1,L,30790772000,1,L,32330310600,1,L,33869849200
+                                        ,1,L,35409387800,1,L,36948926400,1,L,38488465000,1,L,40028003600,1,L,41567542200,1
+                                        ,L,43107080800,1,L,44646619400,1,L,46186158000,1,L,47725696600,1,L,49265235200,1,L
+                                        ,50804773800,1,L,52344312400,1,L,53883851000,1,L,55423389600,1,L,56962928200,1,L,58502466800
+                                        ,1,L,60042005400,1,L,61581544000,1,L,63121082600,1,L,64660621200,1,L,66200159800,1
+                                        ,L,67739698400,1,L,69279237000,1,L,70818775600,1,L,72358314200,1,L,73897852800,1,L
+                                        ,75437391400,1,L,76976930000,1,L,78516468600,1,L,80056007200,1,L,81595545800,1,L,83135084400
+                                        ,1,L,84674623000,1,L,86214161600,1,L,87753700200,1,L,89293238800,1,L,90832777400,1
+                                        ,L,92372316000,1,L,93911854600,1,L,95451393200,1,L,96990931800,1,L,98530470400,1,L
+                                        ,100070009000,1,L,101609547600,1,L,103149086200,1,L,104688624800,1,L,106228163400
+                                        ,1,L,107767702000,1,L,109307240600,1,L,110846779200,1,L,112386317800,1,L,113925856400
+                                        ,1,L,115465395000,1,L,117004933600,1,L,118544472200,1,L,120084010800,1,L,121623549400
+                                        ,1,L,123163088000,1,L,124702626600,1,L,126242165200,1,L,127781703800,1,L,129321242400
+                                        ,1,L,130860781000,1,L,132400319600,1,L,133939858200,1,L,135479396800,1,L,137018935400
+                                        ,1,L,138558474000,1,L,140098012600,1,L,141637551200,1,L,143177089800,1,L,144716628400
+                                        ,1,L,146256167000,1,L,147795705600,1,L,149335244200,1,L,150874782800,1,L,152414321400
+                                        ,1,L,153953860000,1,L,155493398600,1,L,157032937200,1,L,158572475800,1,L,160112014400
+                                        ,1,L,161651553000,1,L,163191091600,1,L,164730630200,1,L,166270168800,1,L,167809707400
+                                        ,1,L,169349246000,1,L,170888784600,1,L,172428323200,1,L,173967861800,1,L,175507400400
+                                        ,1,L,177046939000,1,L,178586477600,1,L,180126016200,1,L,181665554800,1,L,183205093400
+                                        ,1,L,184744632000,1,L
+						Color: 1,1,1
+					}
+					Channel: "Y" {
+						Default: 1
+						Color: 1,1,1
+					}
+					Channel: "Z" {
+						Default: 1
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,1,L,1539538600,1,L,3079077200,1,L,4618615800,1,L,6158154400,1,L,7697693000,1,L,9237231600
+                                        ,1,L,10776770200,1,L,12316308800,1,L,13855847400,1,L,15395386000,1,L,16934924600,1
+                                        ,L,18474463200,1,L,20014001800,1,L,21553540400,1,L,23093079000,1,L,24632617600,1,L
+                                        ,26172156200,1,L,27711694800,1,L,29251233400,1,L,30790772000,1,L,32330310600,1,L,33869849200
+                                        ,1,L,35409387800,1,L,36948926400,1,L,38488465000,1,L,40028003600,1,L,41567542200,1
+                                        ,L,43107080800,1,L,44646619400,1,L,46186158000,1,L,47725696600,1,L,49265235200,1,L
+                                        ,50804773800,1,L,52344312400,1,L,53883851000,1,L,55423389600,1,L,56962928200,1,L,58502466800
+                                        ,1,L,60042005400,1,L,61581544000,1,L,63121082600,1,L,64660621200,1,L,66200159800,1
+                                        ,L,67739698400,1,L,69279237000,1,L,70818775600,1,L,72358314200,1,L,73897852800,1,L
+                                        ,75437391400,1,L,76976930000,1,L,78516468600,1,L,80056007200,1,L,81595545800,1,L,83135084400
+                                        ,1,L,84674623000,1,L,86214161600,1,L,87753700200,1,L,89293238800,1,L,90832777400,1
+                                        ,L,92372316000,1,L,93911854600,1,L,95451393200,1,L,96990931800,1,L,98530470400,1,L
+                                        ,100070009000,1,L,101609547600,1,L,103149086200,1,L,104688624800,1,L,106228163400
+                                        ,1,L,107767702000,1,L,109307240600,1,L,110846779200,1,L,112386317800,1,L,113925856400
+                                        ,1,L,115465395000,1,L,117004933600,1,L,118544472200,1,L,120084010800,1,L,121623549400
+                                        ,1,L,123163088000,1,L,124702626600,1,L,126242165200,1,L,127781703800,1,L,129321242400
+                                        ,1,L,130860781000,1,L,132400319600,1,L,133939858200,1,L,135479396800,1,L,137018935400
+                                        ,1,L,138558474000,1,L,140098012600,1,L,141637551200,1,L,143177089800,1,L,144716628400
+                                        ,1,L,146256167000,1,L,147795705600,1,L,149335244200,1,L,150874782800,1,L,152414321400
+                                        ,1,L,153953860000,1,L,155493398600,1,L,157032937200,1,L,158572475800,1,L,160112014400
+                                        ,1,L,161651553000,1,L,163191091600,1,L,164730630200,1,L,166270168800,1,L,167809707400
+                                        ,1,L,169349246000,1,L,170888784600,1,L,172428323200,1,L,173967861800,1,L,175507400400
+                                        ,1,L,177046939000,1,L,178586477600,1,L,180126016200,1,L,181665554800,1,L,183205093400
+                                        ,1,L,184744632000,1,L
+						Color: 1,1,1
+					}
+					LayerType: 3
+				}
+			}
+		}
+		Model: "Model::カメラ" {
+			Version: 1.1
+			Channel: "Transform" {
+				Channel: "T" {
+					Channel: "X" {
+						Default: -825.93408203125
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,-825.93408203125,L,1539538600,-825.93408203125,L,3079077200,-825.93408203125,L,4618615800
+                                        ,-825.93408203125,L,6158154400,-825.93408203125,L,7697693000,-825.93408203125,L,9237231600
+                                        ,-825.93408203125,L,10776770200,-825.93408203125,L,12316308800,-825.93408203125,L
+                                        ,13855847400,-825.93408203125,L,15395386000,-825.93408203125,L,16934924600,-825.93408203125
+                                        ,L,18474463200,-825.93408203125,L,20014001800,-825.93408203125,L,21553540400,-825.93408203125
+                                        ,L,23093079000,-825.93408203125,L,24632617600,-825.93408203125,L,26172156200,-825.93408203125
+                                        ,L,27711694800,-825.93408203125,L,29251233400,-825.93408203125,L,30790772000,-825.93408203125
+                                        ,L,32330310600,-825.93408203125,L,33869849200,-825.93408203125,L,35409387800,-825.93408203125
+                                        ,L,36948926400,-825.93408203125,L,38488465000,-825.93408203125,L,40028003600,-825.93408203125
+                                        ,L,41567542200,-825.93408203125,L,43107080800,-825.93408203125,L,44646619400,-825.93408203125
+                                        ,L,46186158000,-825.93408203125,L,47725696600,-825.93408203125,L,49265235200,-825.93408203125
+                                        ,L,50804773800,-825.93408203125,L,52344312400,-825.93408203125,L,53883851000,-825.93408203125
+                                        ,L,55423389600,-825.93408203125,L,56962928200,-825.93408203125,L,58502466800,-825.93408203125
+                                        ,L,60042005400,-825.93408203125,L,61581544000,-825.93408203125,L,63121082600,-825.93408203125
+                                        ,L,64660621200,-825.93408203125,L,66200159800,-825.93408203125,L,67739698400,-825.93408203125
+                                        ,L,69279237000,-825.93408203125,L,70818775600,-825.93408203125,L,72358314200,-825.93408203125
+                                        ,L,73897852800,-825.93408203125,L,75437391400,-825.93408203125,L,76976930000,-825.93408203125
+                                        ,L,78516468600,-825.93408203125,L,80056007200,-825.93408203125,L,81595545800,-825.93408203125
+                                        ,L,83135084400,-825.93408203125,L,84674623000,-825.93408203125,L,86214161600,-825.93408203125
+                                        ,L,87753700200,-825.93408203125,L,89293238800,-825.93408203125,L,90832777400,-825.93408203125
+                                        ,L,92372316000,-825.93408203125,L,93911854600,-825.93408203125,L,95451393200,-825.93408203125
+                                        ,L,96990931800,-825.93408203125,L,98530470400,-825.93408203125,L,100070009000,-825.93408203125
+                                        ,L,101609547600,-825.93408203125,L,103149086200,-825.93408203125,L,104688624800,-825.93408203125
+                                        ,L,106228163400,-825.93408203125,L,107767702000,-825.93408203125,L,109307240600,-825.93408203125
+                                        ,L,110846779200,-825.93408203125,L,112386317800,-825.93408203125,L,113925856400,-825.93408203125
+                                        ,L,115465395000,-825.93408203125,L,117004933600,-825.93408203125,L,118544472200,-825.93408203125
+                                        ,L,120084010800,-825.93408203125,L,121623549400,-825.93408203125,L,123163088000,-825.93408203125
+                                        ,L,124702626600,-825.93408203125,L,126242165200,-825.93408203125,L,127781703800,-825.93408203125
+                                        ,L,129321242400,-825.93408203125,L,130860781000,-825.93408203125,L,132400319600,-825.93408203125
+                                        ,L,133939858200,-825.93408203125,L,135479396800,-825.93408203125,L,137018935400,-825.93408203125
+                                        ,L,138558474000,-825.93408203125,L,140098012600,-825.93408203125,L,141637551200,-825.93408203125
+                                        ,L,143177089800,-825.93408203125,L,144716628400,-825.93408203125,L,146256167000,-825.93408203125
+                                        ,L,147795705600,-825.93408203125,L,149335244200,-825.93408203125,L,150874782800,-825.93408203125
+                                        ,L,152414321400,-825.93408203125,L,153953860000,-825.93408203125,L,155493398600,-825.93408203125
+                                        ,L,157032937200,-825.93408203125,L,158572475800,-825.93408203125,L,160112014400,-825.93408203125
+                                        ,L,161651553000,-825.93408203125,L,163191091600,-825.93408203125,L,164730630200,-825.93408203125
+                                        ,L,166270168800,-825.93408203125,L,167809707400,-825.93408203125,L,169349246000,-825.93408203125
+                                        ,L,170888784600,-825.93408203125,L,172428323200,-825.93408203125,L,173967861800,-825.93408203125
+                                        ,L,175507400400,-825.93408203125,L,177046939000,-825.93408203125,L,178586477600,-825.93408203125
+                                        ,L,180126016200,-825.93408203125,L,181665554800,-825.93408203125,L,183205093400,-825.93408203125
+                                        ,L,184744632000,-825.93408203125,L
+						Color: 1,1,1
+					}
+					Channel: "Y" {
+						Default: 605.603515625
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,605.603515625,L,1539538600,605.603515625,L,3079077200,605.603515625,L,4618615800
+                                        ,605.603515625,L,6158154400,605.603515625,L,7697693000,605.603515625,L,9237231600
+                                        ,605.603515625,L,10776770200,605.603515625,L,12316308800,605.603515625,L,13855847400
+                                        ,605.603515625,L,15395386000,605.603515625,L,16934924600,605.603515625,L,18474463200
+                                        ,605.603515625,L,20014001800,605.603515625,L,21553540400,605.603515625,L,23093079000
+                                        ,605.603515625,L,24632617600,605.603515625,L,26172156200,605.603515625,L,27711694800
+                                        ,605.603515625,L,29251233400,605.603515625,L,30790772000,605.603515625,L,32330310600
+                                        ,605.603515625,L,33869849200,605.603515625,L,35409387800,605.603515625,L,36948926400
+                                        ,605.603515625,L,38488465000,605.603515625,L,40028003600,605.603515625,L,41567542200
+                                        ,605.603515625,L,43107080800,605.603515625,L,44646619400,605.603515625,L,46186158000
+                                        ,605.603515625,L,47725696600,605.603515625,L,49265235200,605.603515625,L,50804773800
+                                        ,605.603515625,L,52344312400,605.603515625,L,53883851000,605.603515625,L,55423389600
+                                        ,605.603515625,L,56962928200,605.603515625,L,58502466800,605.603515625,L,60042005400
+                                        ,605.603515625,L,61581544000,605.603515625,L,63121082600,605.603515625,L,64660621200
+                                        ,605.603515625,L,66200159800,605.603515625,L,67739698400,605.603515625,L,69279237000
+                                        ,605.603515625,L,70818775600,605.603515625,L,72358314200,605.603515625,L,73897852800
+                                        ,605.603515625,L,75437391400,605.603515625,L,76976930000,605.603515625,L,78516468600
+                                        ,605.603515625,L,80056007200,605.603515625,L,81595545800,605.603515625,L,83135084400
+                                        ,605.603515625,L,84674623000,605.603515625,L,86214161600,605.603515625,L,87753700200
+                                        ,605.603515625,L,89293238800,605.603515625,L,90832777400,605.603515625,L,92372316000
+                                        ,605.603515625,L,93911854600,605.603515625,L,95451393200,605.603515625,L,96990931800
+                                        ,605.603515625,L,98530470400,605.603515625,L,100070009000,605.603515625,L,101609547600
+                                        ,605.603515625,L,103149086200,605.603515625,L,104688624800,605.603515625,L,106228163400
+                                        ,605.603515625,L,107767702000,605.603515625,L,109307240600,605.603515625,L,110846779200
+                                        ,605.603515625,L,112386317800,605.603515625,L,113925856400,605.603515625,L,115465395000
+                                        ,605.603515625,L,117004933600,605.603515625,L,118544472200,605.603515625,L,120084010800
+                                        ,605.603515625,L,121623549400,605.603515625,L,123163088000,605.603515625,L,124702626600
+                                        ,605.603515625,L,126242165200,605.603515625,L,127781703800,605.603515625,L,129321242400
+                                        ,605.603515625,L,130860781000,605.603515625,L,132400319600,605.603515625,L,133939858200
+                                        ,605.603515625,L,135479396800,605.603515625,L,137018935400,605.603515625,L,138558474000
+                                        ,605.603515625,L,140098012600,605.603515625,L,141637551200,605.603515625,L,143177089800
+                                        ,605.603515625,L,144716628400,605.603515625,L,146256167000,605.603515625,L,147795705600
+                                        ,605.603515625,L,149335244200,605.603515625,L,150874782800,605.603515625,L,152414321400
+                                        ,605.603515625,L,153953860000,605.603515625,L,155493398600,605.603515625,L,157032937200
+                                        ,605.603515625,L,158572475800,605.603515625,L,160112014400,605.603515625,L,161651553000
+                                        ,605.603515625,L,163191091600,605.603515625,L,164730630200,605.603515625,L,166270168800
+                                        ,605.603515625,L,167809707400,605.603515625,L,169349246000,605.603515625,L,170888784600
+                                        ,605.603515625,L,172428323200,605.603515625,L,173967861800,605.603515625,L,175507400400
+                                        ,605.603515625,L,177046939000,605.603515625,L,178586477600,605.603515625,L,180126016200
+                                        ,605.603515625,L,181665554800,605.603515625,L,183205093400,605.603515625,L,184744632000
+                                        ,605.603515625,L
+						Color: 1,1,1
+					}
+					Channel: "Z" {
+						Default: 996.984069824219
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,996.984069824219,L,1539538600,996.984069824219,L,3079077200,996.984069824219,L,4618615800
+                                        ,996.984069824219,L,6158154400,996.984069824219,L,7697693000,996.984069824219,L,9237231600
+                                        ,996.984069824219,L,10776770200,996.984069824219,L,12316308800,996.984069824219,L
+                                        ,13855847400,996.984069824219,L,15395386000,996.984069824219,L,16934924600,996.984069824219
+                                        ,L,18474463200,996.984069824219,L,20014001800,996.984069824219,L,21553540400,996.984069824219
+                                        ,L,23093079000,996.984069824219,L,24632617600,996.984069824219,L,26172156200,996.984069824219
+                                        ,L,27711694800,996.984069824219,L,29251233400,996.984069824219,L,30790772000,996.984069824219
+                                        ,L,32330310600,996.984069824219,L,33869849200,996.984069824219,L,35409387800,996.984069824219
+                                        ,L,36948926400,996.984069824219,L,38488465000,996.984069824219,L,40028003600,996.984069824219
+                                        ,L,41567542200,996.984069824219,L,43107080800,996.984069824219,L,44646619400,996.984069824219
+                                        ,L,46186158000,996.984069824219,L,47725696600,996.984069824219,L,49265235200,996.984069824219
+                                        ,L,50804773800,996.984069824219,L,52344312400,996.984069824219,L,53883851000,996.984069824219
+                                        ,L,55423389600,996.984069824219,L,56962928200,996.984069824219,L,58502466800,996.984069824219
+                                        ,L,60042005400,996.984069824219,L,61581544000,996.984069824219,L,63121082600,996.984069824219
+                                        ,L,64660621200,996.984069824219,L,66200159800,996.984069824219,L,67739698400,996.984069824219
+                                        ,L,69279237000,996.984069824219,L,70818775600,996.984069824219,L,72358314200,996.984069824219
+                                        ,L,73897852800,996.984069824219,L,75437391400,996.984069824219,L,76976930000,996.984069824219
+                                        ,L,78516468600,996.984069824219,L,80056007200,996.984069824219,L,81595545800,996.984069824219
+                                        ,L,83135084400,996.984069824219,L,84674623000,996.984069824219,L,86214161600,996.984069824219
+                                        ,L,87753700200,996.984069824219,L,89293238800,996.984069824219,L,90832777400,996.984069824219
+                                        ,L,92372316000,996.984069824219,L,93911854600,996.984069824219,L,95451393200,996.984069824219
+                                        ,L,96990931800,996.984069824219,L,98530470400,996.984069824219,L,100070009000,996.984069824219
+                                        ,L,101609547600,996.984069824219,L,103149086200,996.984069824219,L,104688624800,996.984069824219
+                                        ,L,106228163400,996.984069824219,L,107767702000,996.984069824219,L,109307240600,996.984069824219
+                                        ,L,110846779200,996.984069824219,L,112386317800,996.984069824219,L,113925856400,996.984069824219
+                                        ,L,115465395000,996.984069824219,L,117004933600,996.984069824219,L,118544472200,996.984069824219
+                                        ,L,120084010800,996.984069824219,L,121623549400,996.984069824219,L,123163088000,996.984069824219
+                                        ,L,124702626600,996.984069824219,L,126242165200,996.984069824219,L,127781703800,996.984069824219
+                                        ,L,129321242400,996.984069824219,L,130860781000,996.984069824219,L,132400319600,996.984069824219
+                                        ,L,133939858200,996.984069824219,L,135479396800,996.984069824219,L,137018935400,996.984069824219
+                                        ,L,138558474000,996.984069824219,L,140098012600,996.984069824219,L,141637551200,996.984069824219
+                                        ,L,143177089800,996.984069824219,L,144716628400,996.984069824219,L,146256167000,996.984069824219
+                                        ,L,147795705600,996.984069824219,L,149335244200,996.984069824219,L,150874782800,996.984069824219
+                                        ,L,152414321400,996.984069824219,L,153953860000,996.984069824219,L,155493398600,996.984069824219
+                                        ,L,157032937200,996.984069824219,L,158572475800,996.984069824219,L,160112014400,996.984069824219
+                                        ,L,161651553000,996.984069824219,L,163191091600,996.984069824219,L,164730630200,996.984069824219
+                                        ,L,166270168800,996.984069824219,L,167809707400,996.984069824219,L,169349246000,996.984069824219
+                                        ,L,170888784600,996.984069824219,L,172428323200,996.984069824219,L,173967861800,996.984069824219
+                                        ,L,175507400400,996.984069824219,L,177046939000,996.984069824219,L,178586477600,996.984069824219
+                                        ,L,180126016200,996.984069824219,L,181665554800,996.984069824219,L,183205093400,996.984069824219
+                                        ,L,184744632000,996.984069824219,L
+						Color: 1,1,1
+					}
+					LayerType: 1
+				}
+				Channel: "R" {
+					Channel: "X" {
+						Default: -15.2791957855225
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,-15.2791957855225,L,1539538600,-15.2791957855225,L,3079077200,-15.2791957855225
+                                        ,L,4618615800,-15.2791957855225,L,6158154400,-15.2791957855225,L,7697693000,-15.2791957855225
+                                        ,L,9237231600,-15.2791957855225,L,10776770200,-15.2791957855225,L,12316308800,-15.2791957855225
+                                        ,L,13855847400,-15.2791957855225,L,15395386000,-15.2791957855225,L,16934924600,-15.2791957855225
+                                        ,L,18474463200,-15.2791957855225,L,20014001800,-15.2791957855225,L,21553540400,-15.2791957855225
+                                        ,L,23093079000,-15.2791957855225,L,24632617600,-15.2791957855225,L,26172156200,-15.2791957855225
+                                        ,L,27711694800,-15.2791957855225,L,29251233400,-15.2791957855225,L,30790772000,-15.2791957855225
+                                        ,L,32330310600,-15.2791957855225,L,33869849200,-15.2791957855225,L,35409387800,-15.2791957855225
+                                        ,L,36948926400,-15.2791957855225,L,38488465000,-15.2791957855225,L,40028003600,-15.2791957855225
+                                        ,L,41567542200,-15.2791957855225,L,43107080800,-15.2791957855225,L,44646619400,-15.2791957855225
+                                        ,L,46186158000,-15.2791957855225,L,47725696600,-15.2791957855225,L,49265235200,-15.2791957855225
+                                        ,L,50804773800,-15.2791957855225,L,52344312400,-15.2791957855225,L,53883851000,-15.2791957855225
+                                        ,L,55423389600,-15.2791957855225,L,56962928200,-15.2791957855225,L,58502466800,-15.2791957855225
+                                        ,L,60042005400,-15.2791957855225,L,61581544000,-15.2791957855225,L,63121082600,-15.2791957855225
+                                        ,L,64660621200,-15.2791957855225,L,66200159800,-15.2791957855225,L,67739698400,-15.2791957855225
+                                        ,L,69279237000,-15.2791957855225,L,70818775600,-15.2791957855225,L,72358314200,-15.2791957855225
+                                        ,L,73897852800,-15.2791957855225,L,75437391400,-15.2791957855225,L,76976930000,-15.2791957855225
+                                        ,L,78516468600,-15.2791957855225,L,80056007200,-15.2791957855225,L,81595545800,-15.2791957855225
+                                        ,L,83135084400,-15.2791957855225,L,84674623000,-15.2791957855225,L,86214161600,-15.2791957855225
+                                        ,L,87753700200,-15.2791957855225,L,89293238800,-15.2791957855225,L,90832777400,-15.2791957855225
+                                        ,L,92372316000,-15.2791957855225,L,93911854600,-15.2791957855225,L,95451393200,-15.2791957855225
+                                        ,L,96990931800,-15.2791957855225,L,98530470400,-15.2791957855225,L,100070009000,-15.2791957855225
+                                        ,L,101609547600,-15.2791957855225,L,103149086200,-15.2791957855225,L,104688624800
+                                        ,-15.2791957855225,L,106228163400,-15.2791957855225,L,107767702000,-15.2791957855225
+                                        ,L,109307240600,-15.2791957855225,L,110846779200,-15.2791957855225,L,112386317800
+                                        ,-15.2791957855225,L,113925856400,-15.2791957855225,L,115465395000,-15.2791957855225
+                                        ,L,117004933600,-15.2791957855225,L,118544472200,-15.2791957855225,L,120084010800
+                                        ,-15.2791957855225,L,121623549400,-15.2791957855225,L,123163088000,-15.2791957855225
+                                        ,L,124702626600,-15.2791957855225,L,126242165200,-15.2791957855225,L,127781703800
+                                        ,-15.2791957855225,L,129321242400,-15.2791957855225,L,130860781000,-15.2791957855225
+                                        ,L,132400319600,-15.2791957855225,L,133939858200,-15.2791957855225,L,135479396800
+                                        ,-15.2791957855225,L,137018935400,-15.2791957855225,L,138558474000,-15.2791957855225
+                                        ,L,140098012600,-15.2791957855225,L,141637551200,-15.2791957855225,L,143177089800
+                                        ,-15.2791957855225,L,144716628400,-15.2791967391968,L,146256167000,-15.2791957855225
+                                        ,L,147795705600,-15.2791957855225,L,149335244200,-15.2791957855225,L,150874782800
+                                        ,-15.2791957855225,L,152414321400,-15.2791957855225,L,153953860000,-15.2791957855225
+                                        ,L,155493398600,-15.2791957855225,L,157032937200,-15.2791957855225,L,158572475800
+                                        ,-15.2791957855225,L,160112014400,-15.2791957855225,L,161651553000,-15.2791957855225
+                                        ,L,163191091600,-15.2791957855225,L,164730630200,-15.2791957855225,L,166270168800
+                                        ,-15.2791957855225,L,167809707400,-15.2791957855225,L,169349246000,-15.2791957855225
+                                        ,L,170888784600,-15.2791957855225,L,172428323200,-15.2791957855225,L,173967861800
+                                        ,-15.2791957855225,L,175507400400,-15.2791957855225,L,177046939000,-15.2791957855225
+                                        ,L,178586477600,-15.2791957855225,L,180126016200,-15.2791957855225,L,181665554800
+                                        ,-15.2791957855225,L,183205093400,-15.2791957855225,L,184744632000,-15.2791957855225
+                                        ,L
+						Color: 1,1,1
+					}
+					Channel: "Y" {
+						Default: 36.6926765441895
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,36.6926765441895,L,1539538600,36.6926765441895,L,3079077200,36.6926765441895,L,4618615800
+                                        ,36.6926765441895,L,6158154400,36.6926765441895,L,7697693000,36.6926765441895,L,9237231600
+                                        ,36.6926765441895,L,10776770200,36.6926765441895,L,12316308800,36.6926765441895,L
+                                        ,13855847400,36.6926765441895,L,15395386000,36.6926765441895,L,16934924600,36.6926765441895
+                                        ,L,18474463200,36.6926765441895,L,20014001800,36.6926765441895,L,21553540400,36.6926765441895
+                                        ,L,23093079000,36.6926765441895,L,24632617600,36.6926765441895,L,26172156200,36.6926765441895
+                                        ,L,27711694800,36.6926765441895,L,29251233400,36.6926765441895,L,30790772000,36.6926765441895
+                                        ,L,32330310600,36.6926765441895,L,33869849200,36.6926765441895,L,35409387800,36.6926765441895
+                                        ,L,36948926400,36.6926765441895,L,38488465000,36.6926765441895,L,40028003600,36.6926765441895
+                                        ,L,41567542200,36.6926765441895,L,43107080800,36.6926765441895,L,44646619400,36.6926765441895
+                                        ,L,46186158000,36.6926765441895,L,47725696600,36.6926765441895,L,49265235200,36.6926765441895
+                                        ,L,50804773800,36.6926765441895,L,52344312400,36.6926765441895,L,53883851000,36.6926765441895
+                                        ,L,55423389600,36.6926765441895,L,56962928200,36.6926765441895,L,58502466800,36.6926765441895
+                                        ,L,60042005400,36.6926765441895,L,61581544000,36.6926765441895,L,63121082600,36.6926765441895
+                                        ,L,64660621200,36.6926765441895,L,66200159800,36.6926765441895,L,67739698400,36.6926765441895
+                                        ,L,69279237000,36.6926765441895,L,70818775600,36.6926765441895,L,72358314200,36.6926765441895
+                                        ,L,73897852800,36.6926765441895,L,75437391400,36.6926765441895,L,76976930000,36.6926765441895
+                                        ,L,78516468600,36.6926765441895,L,80056007200,36.6926765441895,L,81595545800,36.6926765441895
+                                        ,L,83135084400,36.6926765441895,L,84674623000,36.6926765441895,L,86214161600,36.6926765441895
+                                        ,L,87753700200,36.6926765441895,L,89293238800,36.6926765441895,L,90832777400,36.6926765441895
+                                        ,L,92372316000,36.6926765441895,L,93911854600,36.6926765441895,L,95451393200,36.6926765441895
+                                        ,L,96990931800,36.6926765441895,L,98530470400,36.6926765441895,L,100070009000,36.6926765441895
+                                        ,L,101609547600,36.6926765441895,L,103149086200,36.6926765441895,L,104688624800,36.6926765441895
+                                        ,L,106228163400,36.6926765441895,L,107767702000,36.6926765441895,L,109307240600,36.6926765441895
+                                        ,L,110846779200,36.6926765441895,L,112386317800,36.6926765441895,L,113925856400,36.6926765441895
+                                        ,L,115465395000,36.6926765441895,L,117004933600,36.6926765441895,L,118544472200,36.6926765441895
+                                        ,L,120084010800,36.6926765441895,L,121623549400,36.6926765441895,L,123163088000,36.6926765441895
+                                        ,L,124702626600,36.6926765441895,L,126242165200,36.6926765441895,L,127781703800,36.6926765441895
+                                        ,L,129321242400,36.6926765441895,L,130860781000,36.6926765441895,L,132400319600,36.6926765441895
+                                        ,L,133939858200,36.6926765441895,L,135479396800,36.6926765441895,L,137018935400,36.6926765441895
+                                        ,L,138558474000,36.6926765441895,L,140098012600,36.6926765441895,L,141637551200,36.6926765441895
+                                        ,L,143177089800,36.6926765441895,L,144716628400,36.6926765441895,L,146256167000,36.6926765441895
+                                        ,L,147795705600,36.6926765441895,L,149335244200,36.6926765441895,L,150874782800,36.6926765441895
+                                        ,L,152414321400,36.6926765441895,L,153953860000,36.6926765441895,L,155493398600,36.6926765441895
+                                        ,L,157032937200,36.6926765441895,L,158572475800,36.6926765441895,L,160112014400,36.6926765441895
+                                        ,L,161651553000,36.6926765441895,L,163191091600,36.6926765441895,L,164730630200,36.6926765441895
+                                        ,L,166270168800,36.6926765441895,L,167809707400,36.6926765441895,L,169349246000,36.6926765441895
+                                        ,L,170888784600,36.6926765441895,L,172428323200,36.6926765441895,L,173967861800,36.6926765441895
+                                        ,L,175507400400,36.6926765441895,L,177046939000,36.6926765441895,L,178586477600,36.6926765441895
+                                        ,L,180126016200,36.6926765441895,L,181665554800,36.6926765441895,L,183205093400,36.6926765441895
+                                        ,L,184744632000,36.6926765441895,L
+						Color: 1,1,1
+					}
+					Channel: "Z" {
+						Default: -24.5692005157471
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,-24.5692005157471,L,1539538600,-24.5692005157471,L,3079077200,-24.5692005157471
+                                        ,L,4618615800,-24.5692005157471,L,6158154400,-24.5692005157471,L,7697693000,-24.5692005157471
+                                        ,L,9237231600,-24.5692005157471,L,10776770200,-24.5692005157471,L,12316308800,-24.5692005157471
+                                        ,L,13855847400,-24.5692005157471,L,15395386000,-24.5692005157471,L,16934924600,-24.5692005157471
+                                        ,L,18474463200,-24.5692005157471,L,20014001800,-24.5692005157471,L,21553540400,-24.5692005157471
+                                        ,L,23093079000,-24.5692005157471,L,24632617600,-24.5692005157471,L,26172156200,-24.5692005157471
+                                        ,L,27711694800,-24.5692005157471,L,29251233400,-24.5692005157471,L,30790772000,-24.5692005157471
+                                        ,L,32330310600,-24.5692005157471,L,33869849200,-24.5692005157471,L,35409387800,-24.5692005157471
+                                        ,L,36948926400,-24.5692005157471,L,38488465000,-24.5692005157471,L,40028003600,-24.5692005157471
+                                        ,L,41567542200,-24.5692005157471,L,43107080800,-24.5692005157471,L,44646619400,-24.5692005157471
+                                        ,L,46186158000,-24.5692005157471,L,47725696600,-24.5692005157471,L,49265235200,-24.5692005157471
+                                        ,L,50804773800,-24.5692005157471,L,52344312400,-24.5692005157471,L,53883851000,-24.5692005157471
+                                        ,L,55423389600,-24.5692005157471,L,56962928200,-24.5692005157471,L,58502466800,-24.5692005157471
+                                        ,L,60042005400,-24.5692005157471,L,61581544000,-24.5692005157471,L,63121082600,-24.5692005157471
+                                        ,L,64660621200,-24.5692005157471,L,66200159800,-24.5692005157471,L,67739698400,-24.5692005157471
+                                        ,L,69279237000,-24.5692005157471,L,70818775600,-24.5692005157471,L,72358314200,-24.5692005157471
+                                        ,L,73897852800,-24.5692005157471,L,75437391400,-24.5692005157471,L,76976930000,-24.5692005157471
+                                        ,L,78516468600,-24.5692005157471,L,80056007200,-24.5692005157471,L,81595545800,-24.5692005157471
+                                        ,L,83135084400,-24.5692005157471,L,84674623000,-24.5692005157471,L,86214161600,-24.5692005157471
+                                        ,L,87753700200,-24.5692005157471,L,89293238800,-24.5692005157471,L,90832777400,-24.5692005157471
+                                        ,L,92372316000,-24.5692005157471,L,93911854600,-24.5692005157471,L,95451393200,-24.5692005157471
+                                        ,L,96990931800,-24.5692005157471,L,98530470400,-24.5692005157471,L,100070009000,-24.5692005157471
+                                        ,L,101609547600,-24.5692005157471,L,103149086200,-24.5692005157471,L,104688624800
+                                        ,-24.5692005157471,L,106228163400,-24.5692005157471,L,107767702000,-24.5692005157471
+                                        ,L,109307240600,-24.5692005157471,L,110846779200,-24.5692005157471,L,112386317800
+                                        ,-24.5692005157471,L,113925856400,-24.5692005157471,L,115465395000,-24.5692005157471
+                                        ,L,117004933600,-24.5692005157471,L,118544472200,-24.5692005157471,L,120084010800
+                                        ,-24.5692005157471,L,121623549400,-24.5692005157471,L,123163088000,-24.5692005157471
+                                        ,L,124702626600,-24.5692005157471,L,126242165200,-24.5692005157471,L,127781703800
+                                        ,-24.5692005157471,L,129321242400,-24.5692005157471,L,130860781000,-24.5692005157471
+                                        ,L,132400319600,-24.5692005157471,L,133939858200,-24.5692005157471,L,135479396800
+                                        ,-24.5692005157471,L,137018935400,-24.5692005157471,L,138558474000,-24.5692005157471
+                                        ,L,140098012600,-24.5692005157471,L,141637551200,-24.5692005157471,L,143177089800
+                                        ,-24.5692005157471,L,144716628400,-24.5692005157471,L,146256167000,-24.5692005157471
+                                        ,L,147795705600,-24.5692005157471,L,149335244200,-24.5692005157471,L,150874782800
+                                        ,-24.5692005157471,L,152414321400,-24.5692005157471,L,153953860000,-24.5692005157471
+                                        ,L,155493398600,-24.5692005157471,L,157032937200,-24.5692005157471,L,158572475800
+                                        ,-24.5692005157471,L,160112014400,-24.5692005157471,L,161651553000,-24.5692005157471
+                                        ,L,163191091600,-24.5692005157471,L,164730630200,-24.5692005157471,L,166270168800
+                                        ,-24.5692005157471,L,167809707400,-24.5692005157471,L,169349246000,-24.5692005157471
+                                        ,L,170888784600,-24.5692005157471,L,172428323200,-24.5692005157471,L,173967861800
+                                        ,-24.5692005157471,L,175507400400,-24.5692005157471,L,177046939000,-24.5692005157471
+                                        ,L,178586477600,-24.5692005157471,L,180126016200,-24.5692005157471,L,181665554800
+                                        ,-24.5692005157471,L,183205093400,-24.5692005157471,L,184744632000,-24.5692005157471
+                                        ,L
+						Color: 1,1,1
+					}
+					LayerType: 2
+				}
+				Channel: "S" {
+					Channel: "X" {
+						Default: 1
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,1,L,1539538600,1,L,3079077200,1,L,4618615800,1,L,6158154400,1,L,7697693000,1,L,9237231600
+                                        ,1,L,10776770200,1,L,12316308800,1,L,13855847400,1,L,15395386000,1,L,16934924600,1
+                                        ,L,18474463200,1,L,20014001800,1,L,21553540400,1,L,23093079000,1,L,24632617600,1,L
+                                        ,26172156200,1,L,27711694800,1,L,29251233400,1,L,30790772000,1,L,32330310600,1,L,33869849200
+                                        ,1,L,35409387800,1,L,36948926400,1,L,38488465000,1,L,40028003600,1,L,41567542200,1
+                                        ,L,43107080800,1,L,44646619400,1,L,46186158000,1,L,47725696600,1,L,49265235200,1,L
+                                        ,50804773800,1,L,52344312400,1,L,53883851000,1,L,55423389600,1,L,56962928200,1,L,58502466800
+                                        ,1,L,60042005400,1,L,61581544000,1,L,63121082600,1,L,64660621200,1,L,66200159800,1
+                                        ,L,67739698400,1,L,69279237000,1,L,70818775600,1,L,72358314200,1,L,73897852800,1,L
+                                        ,75437391400,1,L,76976930000,1,L,78516468600,1,L,80056007200,1,L,81595545800,1,L,83135084400
+                                        ,1,L,84674623000,1,L,86214161600,1,L,87753700200,1,L,89293238800,1,L,90832777400,1
+                                        ,L,92372316000,1,L,93911854600,1,L,95451393200,1,L,96990931800,1,L,98530470400,1,L
+                                        ,100070009000,1,L,101609547600,1,L,103149086200,1,L,104688624800,1,L,106228163400
+                                        ,1,L,107767702000,1,L,109307240600,1,L,110846779200,1,L,112386317800,1,L,113925856400
+                                        ,1,L,115465395000,1,L,117004933600,1,L,118544472200,1,L,120084010800,1,L,121623549400
+                                        ,1,L,123163088000,1,L,124702626600,1,L,126242165200,1,L,127781703800,1,L,129321242400
+                                        ,1,L,130860781000,1,L,132400319600,1,L,133939858200,1,L,135479396800,1,L,137018935400
+                                        ,1,L,138558474000,1,L,140098012600,1,L,141637551200,1,L,143177089800,1,L,144716628400
+                                        ,1,L,146256167000,1,L,147795705600,1,L,149335244200,1,L,150874782800,1,L,152414321400
+                                        ,1,L,153953860000,1,L,155493398600,1,L,157032937200,1,L,158572475800,1,L,160112014400
+                                        ,1,L,161651553000,1,L,163191091600,1,L,164730630200,1,L,166270168800,1,L,167809707400
+                                        ,1,L,169349246000,1,L,170888784600,1,L,172428323200,1,L,173967861800,1,L,175507400400
+                                        ,1,L,177046939000,1,L,178586477600,1,L,180126016200,1,L,181665554800,1,L,183205093400
+                                        ,1,L,184744632000,1,L
+						Color: 1,1,1
+					}
+					Channel: "Y" {
+						Default: 1
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,1,L,1539538600,1,L,3079077200,1,L,4618615800,1,L,6158154400,1,L,7697693000,1,L,9237231600
+                                        ,1,L,10776770200,1,L,12316308800,1,L,13855847400,1,L,15395386000,1,L,16934924600,1
+                                        ,L,18474463200,1,L,20014001800,1,L,21553540400,1,L,23093079000,1,L,24632617600,1,L
+                                        ,26172156200,1,L,27711694800,1,L,29251233400,1,L,30790772000,1,L,32330310600,1,L,33869849200
+                                        ,1,L,35409387800,1,L,36948926400,1,L,38488465000,1,L,40028003600,1,L,41567542200,1
+                                        ,L,43107080800,1,L,44646619400,1,L,46186158000,1,L,47725696600,1,L,49265235200,1,L
+                                        ,50804773800,1,L,52344312400,1,L,53883851000,1,L,55423389600,1,L,56962928200,1,L,58502466800
+                                        ,1,L,60042005400,1,L,61581544000,1,L,63121082600,1,L,64660621200,1,L,66200159800,1
+                                        ,L,67739698400,1,L,69279237000,1,L,70818775600,1,L,72358314200,1,L,73897852800,1,L
+                                        ,75437391400,1,L,76976930000,1,L,78516468600,1,L,80056007200,1,L,81595545800,1,L,83135084400
+                                        ,1,L,84674623000,1,L,86214161600,1,L,87753700200,1,L,89293238800,1,L,90832777400,1
+                                        ,L,92372316000,1,L,93911854600,1,L,95451393200,1,L,96990931800,1,L,98530470400,1,L
+                                        ,100070009000,1,L,101609547600,1,L,103149086200,1,L,104688624800,1,L,106228163400
+                                        ,1,L,107767702000,1,L,109307240600,1,L,110846779200,1,L,112386317800,1,L,113925856400
+                                        ,1,L,115465395000,1,L,117004933600,1,L,118544472200,1,L,120084010800,1,L,121623549400
+                                        ,1,L,123163088000,1,L,124702626600,1,L,126242165200,1,L,127781703800,1,L,129321242400
+                                        ,1,L,130860781000,1,L,132400319600,1,L,133939858200,1,L,135479396800,1,L,137018935400
+                                        ,1,L,138558474000,1,L,140098012600,1,L,141637551200,1,L,143177089800,1,L,144716628400
+                                        ,1,L,146256167000,1,L,147795705600,1,L,149335244200,1,L,150874782800,1,L,152414321400
+                                        ,1,L,153953860000,1,L,155493398600,1,L,157032937200,1,L,158572475800,1,L,160112014400
+                                        ,1,L,161651553000,1,L,163191091600,1,L,164730630200,1,L,166270168800,1,L,167809707400
+                                        ,1,L,169349246000,1,L,170888784600,1,L,172428323200,1,L,173967861800,1,L,175507400400
+                                        ,1,L,177046939000,1,L,178586477600,1,L,180126016200,1,L,181665554800,1,L,183205093400
+                                        ,1,L,184744632000,1,L
+						Color: 1,1,1
+					}
+					Channel: "Z" {
+						Default: 1
+						KeyVer: 4005
+						KeyCount: 121
+						Key: 0,1,L,1539538600,1,L,3079077200,1,L,4618615800,1,L,6158154400,1,L,7697693000,1,L,9237231600
+                                        ,1,L,10776770200,1,L,12316308800,1,L,13855847400,1,L,15395386000,1,L,16934924600,1
+                                        ,L,18474463200,1,L,20014001800,1,L,21553540400,1,L,23093079000,1,L,24632617600,1,L
+                                        ,26172156200,1,L,27711694800,1,L,29251233400,1,L,30790772000,1,L,32330310600,1,L,33869849200
+                                        ,1,L,35409387800,1,L,36948926400,1,L,38488465000,1,L,40028003600,1,L,41567542200,1
+                                        ,L,43107080800,1,L,44646619400,1,L,46186158000,1,L,47725696600,1,L,49265235200,1,L
+                                        ,50804773800,1,L,52344312400,1,L,53883851000,1,L,55423389600,1,L,56962928200,1,L,58502466800
+                                        ,1,L,60042005400,1,L,61581544000,1,L,63121082600,1,L,64660621200,1,L,66200159800,1
+                                        ,L,67739698400,1,L,69279237000,1,L,70818775600,1,L,72358314200,1,L,73897852800,1,L
+                                        ,75437391400,1,L,76976930000,1,L,78516468600,1,L,80056007200,1,L,81595545800,1,L,83135084400
+                                        ,1,L,84674623000,1,L,86214161600,1,L,87753700200,1,L,89293238800,1,L,90832777400,1
+                                        ,L,92372316000,1,L,93911854600,1,L,95451393200,1,L,96990931800,1,L,98530470400,1,L
+                                        ,100070009000,1,L,101609547600,1,L,103149086200,1,L,104688624800,1,L,106228163400
+                                        ,1,L,107767702000,1,L,109307240600,1,L,110846779200,1,L,112386317800,1,L,113925856400
+                                        ,1,L,115465395000,1,L,117004933600,1,L,118544472200,1,L,120084010800,1,L,121623549400
+                                        ,1,L,123163088000,1,L,124702626600,1,L,126242165200,1,L,127781703800,1,L,129321242400
+                                        ,1,L,130860781000,1,L,132400319600,1,L,133939858200,1,L,135479396800,1,L,137018935400
+                                        ,1,L,138558474000,1,L,140098012600,1,L,141637551200,1,L,143177089800,1,L,144716628400
+                                        ,1,L,146256167000,1,L,147795705600,1,L,149335244200,1,L,150874782800,1,L,152414321400
+                                        ,1,L,153953860000,1,L,155493398600,1,L,157032937200,1,L,158572475800,1,L,160112014400
+                                        ,1,L,161651553000,1,L,163191091600,1,L,164730630200,1,L,166270168800,1,L,167809707400
+                                        ,1,L,169349246000,1,L,170888784600,1,L,172428323200,1,L,173967861800,1,L,175507400400
+                                        ,1,L,177046939000,1,L,178586477600,1,L,180126016200,1,L,181665554800,1,L,183205093400
+                                        ,1,L,184744632000,1,L
+						Color: 1,1,1
+					}
+					LayerType: 3
+				}
+			}
+		}
+		
+		;Generic nodes animation
+		;----------------------------------------------------
+		
+		;Textures animation
+		;----------------------------------------------------
+		
+		;Materials animation
+		;----------------------------------------------------
+		
+		
+		;Constraints animation
+		;----------------------------------------------------
+	}
+}
+;Version 5 settings
+;------------------------------------------------------------------
+
+Version5:  {
+	AmbientRenderSettings:  {
+		Version: 101
+		AmbientLightColor: 0,0,0,1
+	}
+	FogOptions:  {
+		FlogEnable: 0
+		FogMode: 0
+		FogDensity: 0.002
+		FogStart: 0.3
+		FogEnd: 1000
+		FogColor: 1,1,1,1
+	}
+	Settings:  {
+		FrameRate: "30"
+		TimeFormat: 1
+		SnapOnFrames: 0
+		ReferenceTimeIndex: -1
+		TimeLineStartTime: 0
+		TimeLineStopTime: 46186158000
+	}
+	RendererSetting:  {
+		DefaultCamera: "Producer Perspective"
+		DefaultViewingMode: 0
+	}
+}

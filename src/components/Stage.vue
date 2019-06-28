@@ -5,6 +5,7 @@
     <Object3D path='./objects/meka/meka.gltf' ref="meka"/>
     <Object3D path='./objects/tamane/tamane.gltf' ref="tamane"/>
     <Object3D path='./objects/Maria_W_Prop_JJ_Ong_StandingMeleeAttack/StandingMeleeAttackBackhand.gltf' ref="Maria"/>
+    <Object3D path='./objects/camera/glTF/camera.gltf' ref="camera"/>
   </div>
 </template>
 
@@ -56,11 +57,11 @@ export default {
     var theta = 0;
     var animation =()=>{
       renderer.render(this.scene, camera);
-      controls.update();
+      // controls.update();
       var delta = clock.getDelta()
       for(let i in this.$refs){
         let ref = this.$refs[i]
-        let character = ref.mycharacter()
+        let character = ref.myCharacter()
         ref.update(delta)
         if(character !== undefined){
           if(i === 'tamane'){
@@ -70,12 +71,35 @@ export default {
           }else if(i === 'Maria'){
             character.position.set(3, 0, 0);
           }
+          else if(i ==='camera'){
+            camera.position.x = character.position.x;
+            camera.position.y = character.position.y;
+            camera.position.z = character.position.z;
+            camera.rotation.x = character.rotation.x;
+            camera.rotation.y = character.rotation.y;
+            camera.rotation.z = character.rotation.z;
+
+            //強制的に何かを見る
+            camera.lookAt(new THREE.Vector3(0,0,0));//ゼロ地点
+            // lookAt('boxing')
+            // lookAt('Samba_Dancing')
+            // lookAt('meka')
+            // lookAt('tamane')
+            // lookAt('Maria')
+          }
         }
       }
       theta += 0.02;
       requestAnimationFrame(animation);
     };
     animation();
+
+    var lookAt=(id)=>{
+      let _ref = this.$refs[id]
+      let _character;
+      if(_ref)_character = _ref.myCharacter()
+      if(_character)camera.lookAt(_character.position);
+    }
   }
 }
 </script>
