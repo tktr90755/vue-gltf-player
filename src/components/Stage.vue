@@ -2,7 +2,6 @@
   <div id='stage'>
     <Object3D path='./objects/Dreyar_By_M_Aure_Boxing/Dreyar_By_M_Aure_Boxing.gltf' ref="boxing"/>
     <Object3D path='./objects/Parasite_L_Starkie_Samba_Dancing/Parasite_L_Starkie_Samba_Dancing.gltf' ref="Samba_Dancing"/>
-    <Object3D path='./objects/meka/meka.gltf' ref="meka"/>
     <Object3D path='./objects/tamane/tamane.gltf' ref="tamane"/>
     <Object3D path='./objects/Maria_W_Prop_JJ_Ong_StandingMeleeAttack/StandingMeleeAttackBackhand.gltf' ref="Maria"/>
     <Object3D path='./objects/camera/glTF/camera.gltf' ref="camera"/>

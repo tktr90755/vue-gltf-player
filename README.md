@@ -1,4 +1,4 @@
-# vue-svg-homing-player
+# vue-gltf-player
 Three.jsでglTF読み込みを試したファイル
 Cinema4D R19でなくてもBlenterを使えばglTF書き出しできる。
 
