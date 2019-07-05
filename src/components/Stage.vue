@@ -72,7 +72,7 @@ export default {
           }
           else if(i ==='camera'){
             camera.position.x = character.position.x;
-            camera.position.y = character.position.y;
+            camera.position.y = character.position.y + 5;
             camera.position.z = character.position.z;
             camera.rotation.x = character.rotation.x;
             camera.rotation.y = character.rotation.y;
